@@ -21,6 +21,11 @@ nvm install node npm
 npm i
 ```
 
+Tested with 
+
+NodeJS v22.3.0
+npm 10.8.1
+
 * CDK 
 
 * Docker 
