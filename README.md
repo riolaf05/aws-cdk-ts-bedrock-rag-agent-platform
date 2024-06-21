@@ -10,3 +10,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app. The build ste
 * `npx cdk deploy`       deploy this stack to your default AWS account/region
 * `npx cdk diff`         compare deployed stack with current state
 * `npx cdk synth`        emits the synthesized CloudFormation template
+
+# References
+
+* [https://community.aws/content/2bi5tqITxIperTzMsD3ohYbPIA4/easy-rag-with-amazon-bedrock-knowledge-base](Easy Serverless RAG with Knowledge Base for Amazon Bedrock)

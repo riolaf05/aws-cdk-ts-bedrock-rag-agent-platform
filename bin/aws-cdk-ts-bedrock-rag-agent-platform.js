@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 const cdk = require('aws-cdk-lib');
-const { AwsCdkTsBedrockRagAgentPlatformStack } = require('../lib/aws-cdk-ts-bedrock-rag-agent-platform-stack');
+const { ResumeAiStack } = require('../lib/aws-cdk-ts-bedrock-rag-agent-platform-stack');
 
 const app = new cdk.App();
-new AwsCdkTsBedrockRagAgentPlatformStack(app, 'AwsCdkTsBedrockRagAgentPlatformStack', {
+new ResumeAiStack(app, 'ResumeAiStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
