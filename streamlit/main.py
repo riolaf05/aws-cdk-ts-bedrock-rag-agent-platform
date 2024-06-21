@@ -24,7 +24,7 @@ def getAnswers(questions):
         retrieveAndGenerateConfiguration={
             'knowledgeBaseConfiguration': {
                 'knowledgeBaseId': os.getenv('KNOWLEDGE_BASE_ID'),
-                'modelArn': 'arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-instant-v1'
+                'modelArn': 'arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-instant-v1'
             },
             'type': 'KNOWLEDGE_BASE'
         })
