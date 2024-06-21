@@ -46,7 +46,7 @@ npm 10.8.1
 
 # Clean 
 
-1. `aws destroy`
+1. `cdk destroy`
 
 # References
 
