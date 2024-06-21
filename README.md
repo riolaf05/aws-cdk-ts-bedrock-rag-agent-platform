@@ -1,9 +1,5 @@
 # Welcome to your CDK JavaScript project
 
-This is a blank project for CDK development with JavaScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
-
 ## Useful commands
 
 * `npm run test`         perform the jest unit tests
@@ -11,6 +7,30 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app. The build ste
 * `npx cdk diff`         compare deployed stack with current state
 * `npx cdk synth`        emits the synthesized CloudFormation template
 
+![Alt text](https://assets.community.aws/a/2c2iuZfLXZRMnEJm9kpj7kHwwDs/Unti.webp "architecture")
+
+# Prerequisites
+
+* AWS Cli
+
+* CDK 
+
+* Docker 
+
+* Access to `amazon.titan-embed-text-v1` model on Bedrock
+
+# Getting started
+
+1. `aws build`
+
+2. `aws s3 sync data s3://resumeaistack-b7-kdx14wcvfzst^Cedrockragbucketdfd7a7c7-kdx14wcvfzst`
+
+# Clean 
+
+1. `aws destroy`
+
 # References
 
 * [Easy Serverless RAG with Knowledge Base for Amazon Bedrock](https://community.aws/content/2bi5tqITxIperTzMsD3ohYbPIA4/easy-rag-with-amazon-bedrock-knowledge-base)
+
+* []
