@@ -13,4 +13,4 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app. The build ste
 
 # References
 
-* [https://community.aws/content/2bi5tqITxIperTzMsD3ohYbPIA4/easy-rag-with-amazon-bedrock-knowledge-base](Easy Serverless RAG with Knowledge Base for Amazon Bedrock)
+* [Easy Serverless RAG with Knowledge Base for Amazon Bedrock](https://community.aws/content/2bi5tqITxIperTzMsD3ohYbPIA4/easy-rag-with-amazon-bedrock-knowledge-base)
