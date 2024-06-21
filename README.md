@@ -7,7 +7,7 @@
 * `npx cdk diff`         compare deployed stack with current state
 * `npx cdk synth`        emits the synthesized CloudFormation template
 
-![Alt text](architecture.jpg "architecture")
+![Alt text](./architecture.jpg "architecture")
 
 # Prerequisites
 
