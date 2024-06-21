@@ -7,6 +7,8 @@
 * `npx cdk diff`         compare deployed stack with current state
 * `npx cdk synth`        emits the synthesized CloudFormation template
 
+# Architecture
+
 ![Alt text](./architecture.jpg "architecture")
 
 # Prerequisites
@@ -30,13 +32,17 @@ npm 10.8.1
 
 * Docker 
 
-* Access to `amazon.titan-embed-text-v1` model on Bedrock
+* Access to `amazon.titan-embed-text-v1` e `anthropic.claude-instant-v1` model on Bedrock
 
 # Getting started
 
 1. `aws build`
 
 2. `aws s3 sync data s3://resumeaistack-b7-kdx14wcvfzst^Cedrockragbucketdfd7a7c7-kdx14wcvfzst`
+
+3. update .env file in `streamlit/`
+
+4. `strealit run streamlit/main.py`
 
 # Clean 
 
@@ -46,4 +52,4 @@ npm 10.8.1
 
 * [Easy Serverless RAG with Knowledge Base for Amazon Bedrock](https://community.aws/content/2bi5tqITxIperTzMsD3ohYbPIA4/easy-rag-with-amazon-bedrock-knowledge-base)
 
-* []
+* [Implementing RAG App Using Knowledge Base from Amazon Bedrock and Streamlit](https://medium.com/@saikatm.courses/implementing-rag-app-using-knowledge-base-from-amazon-bedrock-and-streamlit-e52f8300f01d)
