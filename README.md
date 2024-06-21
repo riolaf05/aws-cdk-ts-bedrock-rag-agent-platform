@@ -36,7 +36,7 @@ npm 10.8.1
 
 # Getting started
 
-1. `aws build`
+1. `cdk build`
 
 2. `aws s3 sync data s3://resumeaistack-b7-kdx14wcvfzst^Cedrockragbucketdfd7a7c7-kdx14wcvfzst`
 
