@@ -7,7 +7,7 @@
 * `npx cdk diff`         compare deployed stack with current state
 * `npx cdk synth`        emits the synthesized CloudFormation template
 
-![Alt text](https://assets.community.aws/a/2c2iuZfLXZRMnEJm9kpj7kHwwDs/Unti.webp "architecture")
+![Alt text](architecture.jpg "architecture")
 
 # Prerequisites
 
